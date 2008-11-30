@@ -22,8 +22,14 @@ h2. Learning
 * basics
 ** MVC
 *** Models
+**** DataMapper
+**** Product.all(...)
+**** Product.first(...)
+*** Controllers
+**** render/display
 ** Conventions/Configuration
-*** 
+*** Dependencies
+*** Agnosticism
 ** Similarities to Rails
 
 * Exercise 1:
