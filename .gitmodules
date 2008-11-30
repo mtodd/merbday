@@ -1,0 +1,3 @@
+[submodule "apps/house"]
+	path = apps/house
+	url = git://github.com/mtodd/house.git
