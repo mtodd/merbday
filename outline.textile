@@ -1,0 +1,60 @@
+h1. MerbDay Tutorial
+
+h2. Learning
+
+* intro
+** coverage
+*** basics
+*** questions (interject!)
+
+* Exercise 0:
+** INFORM
+*** modular
+** INSTRUCT
+*** $ sudo gem install merb
+*** $ merb-gen app house
+** EXPECT
+*** "FATAL merb-action-args" - just comment it out in dependencies.rb
+*** "already activated data_objects-0.9.9" - wrong version of DataMapper installed
+    run: http://gist.github.com/30384 to reinstall Merb and deps, eradicating
+    old and problematic dependencies
+
+* basics
+** MVC
+*** Models
+** Conventions/Configuration
+*** 
+** Similarities to Rails
+
+* Exercise 1:
+** INFORM
+*** app:
+** INSTRUCT
+*** create controllers
+*** route
+*** configure
+
+h2. Using
+
+* Filters
+* Rendering and Content Negotiation
+* Error Handling
+* Routing
+
+* Exercise 2:
+** INFORM:
+*** ...
+** INSTRUCT
+*** ...
+** EXPECT
+*** ...
+
+* Advanced Topics
+** AJAX
+** debugger
+** web services
+** testing
+
+h2. Hacking
+
+* plugins
