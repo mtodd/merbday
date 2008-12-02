@@ -1,6 +1,73 @@
 h1. MerbDay Tutorial
 
-h2. Learning
+h2. Outline
+
+* Intro
+** merb-gen app house
+** MVC
+*** diagram
+** 
+
+* Exercise 1: Generate a Merb Application
+
+* Configuring Your Merb Application
+** ORM
+** Database
+** Template Engine
+** Test Framework
+** General
+** Agnosticism
+*** @config example@
+** Dependencies
+*** @dependencies examples@
+
+* Exercise 2: Setup Database, Config, Routes
+
+* Building the Application
+** Architecture
+** MVC
+** Resources
+** @example model@
+** @example controller@
+
+* Exercise 3: Add Product Resource
+
+* Slices (merb-auth)
+** Mini Apps
+** merb-auth
+** @ensure_authenticated@
+** TODO: slides detailing new user model and migration
+
+* Exercise 4: Add Authentication
+
+* Web Services and Content Negotiation
+** @provides@
+** @respond_to@
+** -@respond_to@-
+** @respond_to@ vs @case content_type@
+** @display @product@
+** @render@ vs @display@
+
+* Exercise 5: Add XML and JSON Support
+
+* Conventions and Helpers
+
+* Exercise 6: Pretty up the views
+
+* Advanced / Misc
+** Rack Middleware
+*** diagram
+** @config/rack.rb@
+
+* Exercise 7: Add a Rack middleware
+
+
+
+
+
+h2. Notes
+
+h3. Learning
 
 * intro
 ** coverage
@@ -40,7 +107,7 @@ h2. Learning
 *** route
 *** configure
 
-h2. Using
+h3. Using
 
 * Filters
 * Rendering and Content Negotiation
@@ -61,6 +128,6 @@ h2. Using
 ** web services
 ** testing
 
-h2. Hacking
+h3. Hacking
 
 * plugins
