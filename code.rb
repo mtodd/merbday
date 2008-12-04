@@ -65,3 +65,15 @@ class Product
   
 end
 
+
+
+### app/controllers/products.rb SAMPLE
+
+class Products < Application
+  
+  def index
+    @products = Product.all(:order => [:inventory.desc])
+    display @products
+  end
+  
+end

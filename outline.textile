@@ -4,6 +4,11 @@ h2. Outline
 
 * Intro
 ** merb-gen app house
+** Philosophy
+*** Fast, Lightweight, Powerful
+*** Conventions & Configuration
+*** Modular
+*** Agnostic
 ** MVC
 *** diagram
 ** 
@@ -51,6 +56,9 @@ h2. Outline
 * Exercise 5: Add XML and JSON Support
 
 * Conventions and Helpers
+** @link_to@
+** @form_for@
+** @current_user@ & @session[:user]@
 
 * Exercise 6: Pretty up the views
 
